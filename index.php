@@ -24,11 +24,7 @@
             }else{
                 include "./vistas/404.php";
             }
-        }
-
-
-        
-        
+        } 
     ?>
 </body>
 
