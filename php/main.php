@@ -9,7 +9,7 @@ function conexion() {
 # Verificar datos #
 
 function verificar_datos($filtro,$cadena){
-    if(preg_match("/^".$filtro."$/",$cadena)){
+    if(preg_match("/^".$filtro."/i",$cadena)){
         return false;
     }else{
         return true;

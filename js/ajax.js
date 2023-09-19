@@ -22,7 +22,9 @@ function enviar_formulario_ajax(e){
 
         fetch(action,config)
         .then(res => res.text())
-        .then(res => { alert(res)
+        .then(res => { 
+            let contenedor=document.querySelector(".form-rest");
+            contenedor.innerHTML = res;
         });
     }
 }
