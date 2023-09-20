@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="?vista=home">
-      <img src="../img/mysql.png" width="65" height="28">
+      <img src="./img/mysql.png" width="65" height="28">
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -52,7 +52,7 @@
           <a class="button is-primary is-rounded">
             <strong>Mi cuenta</strong>
           </a>
-          <a class="button is-danger is-rounded">
+          <a href="index.php?vista=logout" class="button is-danger is-rounded">
             Salir
           </a>
         </div>
