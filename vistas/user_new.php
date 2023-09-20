@@ -6,7 +6,7 @@
 
 	<div class="form-rest mb-6 mt-6"></div>
 
-	<form action="../php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
+	<form action="./php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
 		<div class="columns">
 		  	<div class="column">
 		    	<div class="control">
