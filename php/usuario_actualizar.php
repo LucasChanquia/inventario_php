@@ -211,7 +211,7 @@ if($email!="" && $email!=$datos['usuario_email']){
     $clave=$datos['usuario_clave'];
  }
  
- // Actualizar dartos
+ // Actualizar datos
 
  $actualizar_usuario=conexion();
  $actualizar_usuario=$actualizar_usuario->prepare("UPDATE usuario SET usuario_nombre=:nombre, usuario_apellido=:apellido, usuario_usuario=:usuario, usuario_clave=:clave, usuario_email=:email WHERE usuario_id=:id");
