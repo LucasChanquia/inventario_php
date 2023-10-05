@@ -5,6 +5,7 @@ require_once "./php/main.php";
 $id=(isset($_GET['user_id_up'])) ? $_GET['user_id_up'] : 0;
 $id=limpiar_cadena($id);
 ?>
+
 <div class="container is-fluid mb-6">
 	<?php if($id==$_SESSION['id']){ ?>
 		<h1 class="title">Mi cuenta</h1>
@@ -31,7 +32,7 @@ $id=limpiar_cadena($id);
 
 	<form action="./php/usuario_actualizar.php" method="POST" class="FormularioAjax" autocomplete="off" >
 
-		<input type="hidden" value="<?php echo $datos['usuario_id']?>" name="usuario_id" required >
+		<input type="hidden" value="<?php echo $datos['usuario_id'];?>" name="usuario_id" required >
 		
 		<div class="columns">
 		  	<div class="column">
