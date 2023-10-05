@@ -5,7 +5,7 @@ _Esta app es un programa listo para poder administrar usuarios, crear categoría
 ## Comenzando 🚀
 
 _Podrás iniciar sesión con el siguiente usuario =>
-Usuario: User
+Usuario: User ||
 Password: user123._
 
 Mira **https://www.youtube.com/watch?v=IfAGMByR-4E** para conocer como desplegar el proyecto.
