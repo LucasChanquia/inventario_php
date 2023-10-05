@@ -92,7 +92,7 @@ $marcadores=[
 if($actualizar_categoria->execute($marcadores)){
     echo '
     <div class="notification is-info is-light">
-        <strong>¡CATEGORIA ACTUALIZADO!</strong><br>
+        <strong>¡CATEGORIA ACTUALIZADA!</strong><br>
         La CATEGORIA se actualizó con éxito
     </div>
 ';
